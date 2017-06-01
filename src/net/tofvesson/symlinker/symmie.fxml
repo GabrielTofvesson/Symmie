@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity"
+        maxWidth="-Infinity"
+        minHeight="-Infinity"
+        minWidth="-Infinity"
+        prefHeight="170.0"
+        prefWidth="392.0"
+        xmlns="http://javafx.com/javafx/8.0.112"
+        xmlns:fx="http://javafx.com/fxml/1">
+    <TextField fx:id="source" layoutX="16.0" layoutY="59.0" prefWidth="360.0" promptText="Folder to move file(s) from" />
+    <TextField fx:id="destination" layoutX="16.0" layoutY="90.0" prefHeight="25.0" prefWidth="360.0" promptText="Folder to move file(s) to" />
+   <Button fx:id="startstop" layoutX="16.0" layoutY="125.0" mnemonicParsing="false" text="Start" />
+   <Label layoutX="143.0" layoutY="10.0" text="Symmie">
+      <font>
+         <Font size="30.0" />
+      </font>
+   </Label>
+   <ProgressBar fx:id="progress" visible="false" layoutX="175.0" layoutY="129.0" prefWidth="200.0" progress="0.0" />
+</Pane>
